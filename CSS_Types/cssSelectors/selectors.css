@@ -1,0 +1,21 @@
+/* Element selector */
+/* p{
+    font-style: oblique; color: rgb(215, 14, 14);
+} */
+
+/* class Selector */
+.classSelector{
+    color: rgb(255, 51, 0);
+}
+/* ID Selector */
+#IDselector{
+    font-size: large; color: rgb(234, 0, 255);
+}
+/* universel selector */
+*{
+    font-style: italic;
+}
+/* groups selcetor */
+.group,#groups{
+    color: blue;
+}
