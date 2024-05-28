@@ -1,0 +1,74 @@
+.h2{
+    background-color: black;
+    color: white;
+}
+.h4{
+    color:green;
+}
+
+.Alignment{
+    color: black;
+}
+.c{
+    text-align: center;
+}
+.l{
+    text-align: left;
+}
+.r{
+    text-align: right;
+}
+.Decoration{
+    background-color: #eff1f0;
+    color: rgb(10, 1, 1);
+    padding: 20px;
+}
+.overline{
+    text-decoration-line: overline;
+  }
+  
+  .lineThrough {
+    text-decoration-line: line-through;
+  }
+  
+  .underline {
+    text-decoration-line: underline;
+  }
+  
+  .overlineUnderline {
+    text-decoration-line: overline underline;
+  }
+  .Transformation{
+    background-color: rgba(0, 255, 64, 0.788);
+    color: rgb(1, 0, 8);
+  }
+  .upper{
+    text-transform: uppercase;
+  }
+  .lower{
+    text-transform: lowercase;
+  }
+  .capital{
+    text-transform: capitalize;
+  }
+  .Indentation{
+    text-indent: 50px;
+  }
+.letterSpacing{
+    letter-spacing: 10px;
+    }
+.lineHeight{
+    line-height: 2;
+}
+.wordSpacing{
+    word-spacing: 20px;
+}
+.whiteSpace{
+    white-space: nowrap;
+}
+.TextIndentation{
+    background-color: aliceblue;
+}
+.Shadow{
+    text-shadow: 2px 2px  rgb(153, 39, 39);
+}
