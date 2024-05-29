@@ -1,0 +1,76 @@
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
+
+/* css Border Width */
+.borderWidth{
+  background-color: rgb(209, 225, 238);
+}
+
+.one {
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  .two {
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  .three {
+    border-style: dotted;
+    border-width: 2px;
+  }
+  
+  .four {
+    border-style: dotted;
+    border-width: thick;
+  }
+/* CSS Border Color */
+  .p1 {
+    border-style: solid;
+    border-color: red;
+  }
+   
+  .p2 {
+    border-style: solid;
+    border-color: green;
+  }
+  
+  .p3 {
+    border-style: dotted;
+    border-color: blue;
+  } */
+  /* CSS Border - Individual Sides */
+   .para1 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+  }
+  /* CSS Border - Shorthand Property */
+  .para2 {
+    border: 5px solid red;
+  }
+  /* CSS Rounded Borders */
+  .pOne {
+    border: 2px solid red;
+    border-radius: 5px;
+  } 
+  .pTwo {
+    border: 2px solid red;
+    border-radius: 8px;
+  }
+  .pThree {
+    border: 2px solid red;
+    border-radius: 20px;
+  } 
+  .BorderIndividualSides{background-color: rgb(191, 236, 236);}
