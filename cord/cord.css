@@ -1,0 +1,59 @@
+.cord{
+    /* height: 370px; */
+    width: 247px;
+    border: 2px solid rgb(39, 5, 5);
+    text-align: center;
+    padding: 20px;
+    /* font-size: 20px; */
+
+}
+.insta{
+    /* height: 370px; */
+    /* width: 247px;
+    border: 2px solid rgb(39, 5, 5);
+    text-align: center;
+    padding: 20px; */
+    background-color:#E2306C;
+    color: white;
+    /* font-size: 20px; */
+}
+.buttoninsta{
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(247, 103, 127);
+    padding: 10px;
+    width: 200px;
+    border:none
+}
+.button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+.fa-instagram{
+    padding: 10px;
+}
+
+.fa-twitter-square{
+    
+    padding: 10px;
+}
+
+.fa-youtube-play{
+    padding: 6px;
+}
+.text{
+    font-size: 20px;
+}
+.head{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.hed{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
