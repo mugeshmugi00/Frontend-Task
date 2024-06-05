@@ -1,0 +1,14 @@
+.cared{
+    height: 358px;
+    width: 670px;
+    background-color: #e9eaeb;
+    display: flex;
+}
+.coredtextP{
+    color: rgb(174,210,112);
+    padding-bottom: 20px;
+}
+.button{
+    height: 39px;
+    width: 79px;
+}
