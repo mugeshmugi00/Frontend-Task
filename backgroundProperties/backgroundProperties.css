@@ -1,0 +1,131 @@
+.main{
+display: flex;
+gap: 10px
+;
+}
+.img1{
+    background-image: url(../img/download.png);
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    background-repeat:repeat
+}
+.img2{
+    background-image: url(../img/download.png);
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    background-repeat: repeat-x
+}
+.img3{
+    background-image: url(../img/download.png);
+    height: 400px;
+    width: 300px;
+    border: 1px solid;
+    background-repeat: repeat-y
+}
+.img4{
+    background-image: url(../img/download.png);
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    background-repeat:no-repeat
+}
+.img5{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position: top
+}
+.img6{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position: bottom
+}
+.img7{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position: right
+}
+.img8{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position: left
+}
+.img9{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position: center
+}
+.img10{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position-x: right;
+}
+.img11{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position-x: left;
+}
+.img12{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-position-x: center;
+}
+.img13{
+    background-image: url(../img/download.png);
+    height: 400px;
+    width: 200px;
+    border: 1px solid;
+    background-position-y: bottom;
+}
+.img14{
+    background-image: url(../img/download.png);
+    height: 400px;
+    width: 200px;
+    border: 1px solid;
+    background-position-y: center;
+}
+.img15{
+    background-image: url(../img/download.png);
+    height: 400px;
+    width: 200px;
+    border: 1px solid;
+    background-position-y: top;
+}
+.img16{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-size: auto;
+}
+.img17{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-size: contain;
+}
+.img18{
+    background-image: url(../img/download.png);
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background-size: cover;
+}
