@@ -1,0 +1,91 @@
+.mainContainer{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+.mainContainer2{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.mainContainer3{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mainContainer4{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mainContainer5{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    gap: 10px; ;
+}
+.mainContainer6{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.mainContainer7{
+    height: 250px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    row-gap: 10px; 
+    flex-direction: column;
+}
+.mainContainer8{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainContainer9{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.mainContainer10{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.mainContainer11{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.mainContainer12{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.nav{
+    /* height: 300px; */
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 300px;
+    width: 300px;
+}
+nav ul{
+    list-style-type: none;
+}
+.ul{
+    display: flex;
+    gap:20px ; 
+}
+.btn{
+    gap: 20px;
+}
