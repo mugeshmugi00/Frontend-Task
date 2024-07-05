@@ -1,0 +1,71 @@
+.main-container{
+    height: 400px;
+    width: 40%;
+    display: grid;
+    margin: auto;
+    background-color: #E8E9EE;
+}
+.heading{
+    text-align: center;
+}
+.btn-3{
+    height: 60px;
+    width: 390px;
+    background-color: rgb(26, 69, 163);
+    color: white;
+    border-radius: 8px;
+    margin: auto;
+    border: none;
+    position: relative
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: #F68B21;
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    border-radius: 4px;
+    display: grid;
+    align-items: center;
+    padding: 1px 1px;
+}
+.logo-logo{
+    font-size: 25px;
+}
+.fa{
+    font-size: 25px;
+}
+
+.btn-text{
+    font-weight: 600;
+    font-size: 15px;
+}
+.apply-btn{
+    background-color: #F68B21;
+    color: white;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+}
+.phara-tetx{
+    width: 40%;
+    height: 470px;
+    display: grid;
+    margin: auto;
+}
+.php{
+    margin-bottom: 1rem;
+}
+.Register-btn{
+    background-color: #F68B21;
+    color: white;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+
+}
