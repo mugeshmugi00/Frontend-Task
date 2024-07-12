@@ -1,3 +1,27 @@
+@import "./demoSass-ver";
 .para{
-    color: aqua;
+    color: $color;
+    font-size: 40px;
+    font-family: $fontsize;
+}
+nav{
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+    li{
+        font-family:fantasy;
+    }
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: $bgcolor1;
+}
+.child2{
+    @extend.child1;
+    background-color: $bgcolor2;
+}
+.mixins{
+    @include mixins;
 }
