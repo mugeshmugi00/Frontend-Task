@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ternary operator</title>
+    </head>
+
+    <body>
+
+        <script>
+            // Check if a number is even or odd.
+            let a = 10;
+            if (a / 2 == 0) {
+                console.log(`${a} the number is even`);
+            }
+            else {
+                console.log(`${a} the number is odd`);
+            }
+            //  Find the maximum of two numbers
+            let c = 10, d = 20;
+            console.log(`c=${c},d=${d}`);
+            let maximum = (c > d) ? "c is maximum" : "d is maximum";
+            console.log(maximum);
+            //  Check if a year is a leap year.
+            var year = 2024;
+            var checkYear = (year % 4 == 0 && year % 400 == 0 && year % 100 == 0) ? "leap year" : "not Leap year"
+            console.log(checkYear);
+
+            // Check if a number is positive, negative, or zero.
+            let e = 10;
+            let pnz = (e > 0) ? (e = 0 ? "zero" : "positive") : "Negative"
+            console.log(`the number is ${pnz}`);
+            //  Check if a number is a divided of both 3 and 5.
+            let f = 15;
+            let divided = (f % 3 == 0 && f % 5 == 0 ? "dividend by both" : "Not")
+            console.log(`the number is ${divided}`);
+        </script>
+
+    </body>
+
+</html>
