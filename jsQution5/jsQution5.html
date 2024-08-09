@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jsQution5</title>
+    </head>
+
+    <body>
+        <script>
+            // Squre Pattern
+            console.log(" Squre Pattern");
+
+            let num1 = 5;
+            let string1 = "";
+            for (let i = 0; i < num1; i++) {
+                for (let j = 0; j < num1; j++) {
+                    string1 += "*"
+                }
+                string1 += "\n"
+            }
+            console.log(string1);
+
+            //Left Pattern
+            console.log("Left Pattern");
+            let num4 = 5;
+            let string4 = "";
+            for (let g = 0; g <= num4; g++) {
+                for (let h = 0; h < g; h++) {
+                    string4 += "*"
+                }
+                for (let m = 0; m <= num4 - g; m++) {
+                    string4 += " "
+                }
+                string4 += "\n"
+            }
+            console.log(string4);
+
+            // //Right Pattern
+            console.log("Right Pattern");
+            let num2 = 5;
+            let string2 = "";
+            for (let a = 0; a <= num2; a++) {
+                for (let b = 0; b <= num2 - a; b++) {
+                    string2 += " "
+                }
+                for (let c = 0; c < a; c++) {
+                    string2 += "*"
+                }
+                string2 += "\n"
+            }
+            console.log(string2);
+
+
+            // //Down Pattern
+            console.log("Down Pattern");
+            let num3 = 5;
+            let string3 = "";
+            for (let d = 0; d <= num3; d++) {
+                for (let e = 0; e <= num3 - d; e++) {
+                    string3 += "*"
+                }
+                for (let f = 0; f < d; f++) {
+                    string3 += " "
+                }
+                string3 += "\n"
+            }
+            console.log(string3);
+
+            // Pramied pattern
+            
+
+        </script>
+    </body>
+
+</html>
